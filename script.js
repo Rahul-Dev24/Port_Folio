@@ -50,7 +50,7 @@ setTimeout(() => {
 const navHandeler = () => {
   const navBar = document.querySelector("#some ul");
   navBar.addEventListener("click", () => {
-    document.querySelector("#full-screen").style.top = "-110%";
+    document.querySelector("#full-screen").style.top = "-125%";
   });
 };
 navHandeler();
