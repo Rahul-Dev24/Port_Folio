@@ -34,7 +34,7 @@ const menuHandel = () => {
       // document.querySelector("#some").style.marginTop = "180%";
       flag = 1;
     } else {
-      full_scr.style.top = "-100%";
+      full_scr.style.top = "-110%";
       document.querySelector("#some").style.display = "none";
       flag = 0;
     }
