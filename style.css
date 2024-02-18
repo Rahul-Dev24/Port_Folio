@@ -12,9 +12,16 @@ body {
   width: 100vw;
 }
 
+nav h1 {
+  font-size: 5vh;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #main {
-  /* background-color: #e7ceab; */
+  /* background-color: red; */
   z-index: 10;
+  width: 100vw;
   position: relative;
 }
 
@@ -406,7 +413,7 @@ iframe {
 }
 
 #page7 {
-  width: 100%;
+  width: 100vw;
   height: 80vh;
 }
 
@@ -419,7 +426,7 @@ iframe {
   z-index: 9;
   bottom: 0;
   display: flex;
-  /* align-items: flex-end; */
+  /* align-items: center; */
   justify-content: flex-end;
   flex-direction: column;
   /* padding: 1vw 3vw; */
@@ -545,11 +552,11 @@ iframe {
 
 #full-screen {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   background-color: rgba(0, 0, 0, 0.548);
   position: fixed;
   z-index: 90;
-  top: -100%;
+  top: -110%;
   transition: all ease 0.8s;
 }
 
@@ -577,6 +584,9 @@ iframe {
 @media (max-width: 700px) {
   #page6 .contect_form {
     flex-direction: column;
+  }
+  nav h1 {
+    font-size: 3vh;
   }
 
   iframe {
@@ -629,6 +639,9 @@ iframe {
 
   #nav-part2 {
     display: none;
+  }
+  nav h1 {
+    font-size: 3vh;
   }
   nav h3 {
     display: block;
@@ -974,6 +987,9 @@ iframe {
   .profile-card {
     height: 55vw;
   }
+  nav h1 {
+    font-size: 3vh;
+  }
 }
 
 /* -------------------------------------------------- */
@@ -1152,5 +1168,8 @@ textarea {
   }
   .book .right .qr_code {
     margin-left: 3.8vw;
+  }
+  nav h1 {
+    font-size: 3vh;
   }
 }

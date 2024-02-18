@@ -46,3 +46,11 @@ var lodder = document.querySelector("#lodder");
 setTimeout(() => {
   lodder.style.top = "-100%";
 }, 4000);
+
+const navHandeler = () => {
+  const navBar = document.querySelector("#some ul");
+  navBar.addEventListener("click", () => {
+    document.querySelector("#full-screen").style.top = "-100%";
+  });
+};
+navHandeler();
