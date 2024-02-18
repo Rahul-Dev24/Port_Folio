@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--========== BOX ICONS ==========-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Responsive resume cv</title>
+  </head>
+  <body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Rahul Singh</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="bx bx-home nav__icon active-link"></i> Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link">
+                <i class="bx bx-user nav__icon"></i> Profile
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link">
+                <i class="bx bx-book nav__icon"></i> Education
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-receipt nav__icon"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i> Experience
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link">
+                <i class="bx bx-award nav__icon"></i> Certificates
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#references" class="nav__link">
+                <i class="bx bx-link-external nav__icon"></i> References
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!--========== HOME ==========-->
+          <section class="home" id="home">
+            <div class="home__container section bg-grid">
+              <div class="home__data bg-grid">
+                
+                  <img
+                  src="./assets/img/profile_resume.jpeg"
+                  class="home__img"
+                  alt=""
+                />
+
+                
+                <h1 class="home__title">Rahul <b>Singh</b></h1>
+                <h3 class="home_profession">Full Stack Developer</h3>
+                <div>
+                  <a
+                    download=""
+                    href="./assets/pdf/Rahul_Cv_W.pdf"
+                    class="home__button-movil"
+                    >Download</a
+                  >
+                </div>
+              </div>
+              <div class="home__address bg-grid">
+                <span class="home__information">
+                  <i class='bx bxl-audible home__icon'></i>
+                  https://rahul-dev24.netlify.app
+                </span>
+
+                <span class="home__information">
+                  <i class="bx bx-envelope home__icon"></i>
+                  rahulsingh908714@gmail.com
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-phone home__icon"></i> 8778495962 & 9087149088
+                </span>
+                <span class="home__information">
+                  <i class="bx bx-map home__icon"></i> Thiruvallur,Chennai-601201
+                </span>
+              </div>
+            </div>
+            <!-- Theme change button -->
+
+            <i
+              class="bx bx-moon change-theme"
+              title="Theme"
+              id="theme-button"
+            ></i>
+
+            <!-- Button to generate and download the pdf. Available for desktop. -->
+
+            <i
+              class="bx bx-download generate-pdf"
+              title="Download Resume"
+              id="resume-button"
+            ></i>
+          </section>
+
+          <!--========== SOCIAL ==========-->
+          <section class="social section">
+            <h2 class="section-title">Social</h2>
+            <div class="social__container bg-grid">
+              
+              <a href="#" target="_blank" class="social__link">
+                <i class="bx bxl-linkedin-square social_icon"></i>
+                @rahulsingh
+              </a>
+              <a
+                href="https://github.com/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-github social_icon"></i> rahulsingh
+              </a>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="social__link"
+              >
+                <i class="bx bxl-instagram social_icon"></i> rahul-dev024
+              </a>
+            </div>
+          </section>
+
+          <!--========== PROFILE ==========-->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <p class="profile__description">
+              To obtain the position that will allow me to utilise my technical
+              skill, Experience and willingness to learn making an organization
+              successful
+            </p>
+          </section>
+
+          <!--========== EDUCATION ==========-->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div
+              class="education__container bg-grid"
+              style="margin-bottom: 15px"
+            >
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bg-grid">
+                  <h3 class="education__title">
+                    Bachelor in Computer Application
+                  </h3>
+                  <span class="education__studies"
+                    >Sri Devi Arts & Science College
+                    <br />
+                    (University of Madrus)</span
+                  >
+                  <span class="education__year">2020 - 2023</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="education__container bg-grid"
+              style="margin-bottom: 15px"
+            >
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+                <div class="education__data bg-grid">
+                  <h3 class="education__title">HSC</h3>
+                  <span class="education__studies"
+                    >Though PCM in State Board</span
+                  >
+                  <span class="education__year">2018 - 2020</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="education__container bg-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <!-- <span class="education__line"></span> -->
+                </div>
+                <div class="education__data bg-grid">
+                  <h3 class="education__title">SSCL</h3>
+                  <span class="education__studies">Though State Board</span>
+                  <span class="education__year">2017 - 2018</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== SKILLS  ==========-->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Language</h2>
+            <div class="skills__content bg-grid">
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  English
+                </li>
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Tamil
+                </li>
+              
+              </ul>
+              <ul class="skills__data">
+                <li class="skills__name">
+                  <span class="skills__circle"></span>
+                  Hindi
+                </li>
+           
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right" style="position: relative;">
+          <!--========== EXPERIENCE ==========-->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">knowledge</h2>
+            <div class="experiences__container bg-grid">
+              <div class="experiences__content">
+                <div class="experiences__time">
+                  <span class="experiences__rounder"></span>
+                  <span class="experiences__line"></span>
+                </div>
+                <div class="experiences__data bg-grid">
+                  <h3 class="experiences__title">Full Stack in Java</h3>
+                  <span class="experiences__company">
+                    JAVA OOP'S | COLLECTION FRAME-WORK | J2EE | JDBC | SPRING-BOOT...
+                  </span>
+                  <p class="experiences__description">
+                    Proficient in java programming with a strong foundation in object-oriented principles, and extensive in utilizing java collection frame-work to ensuring optimal performance & showcasing expertise in developing scalable and efficient applications.
+                    
+                  </p>
+                </div>
+              </div>
+
+              <div class="experiences__content">
+                <div class="experiences__time">
+                  <span class="experiences__rounder"></span>
+                  <span class="experiences__line"></span>
+                </div>
+                <div class="experiences__data bg-grid">
+                  <h3 class="experiences__title">Frontend Developer</h3>
+                  <span class="experiences__company">
+                    HTML | CSS | JS | TAILWIND | BOOTSTRAP | REACT | ShadCN | etc...
+                  </span>
+                  <p class="experiences__description">
+                   I was skilled in html, css, javaScript, with expertise in React, tailwind css as well as in bootstrap for creating responsive and visually engaging user interface in web application.
+                  </p>
+                </div>
+              </div>
+
+              <div class="experiences__content">
+                <div class="experiences__time">
+                  <span class="experiences__rounder"></span>
+                  <!-- <span class="experiences__line"></span> -->
+                </div>
+                <div class="experiences__data bg-grid">
+                  <h3 class="experiences__title">BackEnd Developer</h3>
+                  <span class="experiences__company">
+                    Express js | Spring Boot | HyGraph | Rapid Api | SQL | Mongo
+                    DB | etc...
+                  </span>
+                  <p class="experiences__description">
+                    As a backend developer Proficient in SpringBoot & Express js, Good understanding in design & optimizing SQL and MongoDB database for efficient data management with a focus on scalable server-side functionality.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--========== CERTIFICATES ==========-->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificate__container bg-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Certified for compliance in the Java (2023)
+                </h3>
+                <p class="certificate__description">
+                   I have experience in Java programming, including tackling complexities, gained through courses on the <b>Great Learing</b> platform & Q-Spider.
+                </p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">
+                  Certified for compliance in the Python & Software Testing (2023)
+                </h3>
+                <p class="certificate__description">
+                  Effectively I was done Python programming through <b>Cisco's</b> specialized training, Showcasing adept problem-solving skills. Applied robust software testing methodologies acquired from the <b>Great Learning</b> platform to ensure high-quality software deliverables. and Lots. 
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!--========== REFERENCES ==========-->
+          <section class="references section" id="references">
+            <h2 class="section-title">Projects</h2>
+            <div class="references__container bg-grid">
+              <div class="references__content bg-grid">
+                <h3 class="references__title">Movie Website (React)</h3>
+                <span class="references__subtitle">Developed an engaging movie website project using React js and Integrating the power of the TMDB API.and implemented feature such as search functionality & user-friendly navigation, Showcasing proficiency in front-end development.</span>
+              </div>
+
+              <div class="references__content bg-grid">
+                <h3 class="references__title">Learning Website (Next Js)</h3>
+                <span class="references__subtitle">Developed a dynamic web project using Next js, React, ShadCN, Clerk for state management, and Tailwind for responsive styling, showcasing skills which I can Serve to the organization.</span>
+                <!-- <ul class="references__contect">
+                  <li>https://rahul-dev24-lnd.netlify.app</li>
+                 <li>Email: ravikumar@gmail.com</li> 
+                </ul> -->
+              </div>
+            </div>
+          </section>
+
+            <!--========== INTERESTS ==========-->
+            <section class="interests section" style="margin-bottom: -20px;">
+              <h2 class="section-title">Skills </h2>
+              <div class="interests__container bg-grid">
+                <div class="interests__content">
+                  <i class="bx bxl-java"></i>
+                  <span class="interests__name">Java</span>
+                </div>
+                <div class="interests__content">
+                  <i class="bx bx-network-chart""></i>
+                  <span class="interests__name">Api-Handling</span>
+                </div>
+                <div class="interests__content">
+                    <i class="bx bxl-nodejs"></i> 
+                  <span class="interests__name">Java Script</span>
+                </div>
+                <div class="interests__content">
+                  <i class="bx bx-server"></i>
+                  <span class="interests__name">Express js</span>
+                </div>
+                <!-- <div class="interests__content">
+                  <i class='bx bxl-tailwind-css'></i>
+                  <span class="interests__name">Tailwind</span>
+                </div> -->
+                <div class="interests__content">
+                  <i class="bx bxl-react"></i>
+                  <span class="interests__name">React</span>
+                </div>
+                <div class="interests__content">
+                  <i class="bx bxl-firebase"></i>
+                  <span class="interests__name">FireBase</span>
+                </div>
+                <div class="interests__content">
+                  <i class="bx bxl-graphql"></i>
+                  <span class="interests__name"> HyGraph</span>
+                </div>
+                <div class="interests__content">
+                  <i class='bx bx-data'></i>
+                  <span class="interests__name">SQL</span>
+                </div>
+              </div>
+            </section>
+          <!-- ========== LANGUAGES ==========-->
+          <section class="languages section">
+            <!-- <h2 class="section-title">Language</h2> -->
+            <div class="language__container">
+              <!-- <ul class="language__content bg-grid">
+                <li class="language__name">
+                  <span class="language__circle"></span> Hindi
+                </li>
+                <li class="language__name">
+                  <span class="language__circle"></span> English
+                </li>
+                <li class="language__name">
+                  <span class="language__circle"></span> Tamil
+                </li>
+              </ul> -->
+              <img src="./assets/img/qrcode_boxicons.com.png" style=" position: absolute; bottom: 10px; right: 13px; width: 70px; height: 70px;" alt="" title="Scan For More">
+            </div>
+          </section>
+
+        
+        </div>
+      </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
