@@ -768,7 +768,7 @@ iframe {
 
 #lodder {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   background-color: #000;
   position: fixed;
   z-index: 999;
